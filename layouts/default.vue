@@ -103,7 +103,12 @@
             </v-list-tile-action>
           </v-list-tile>
         </v-list-group>
-        </v-list>
+        <v-list-tile
+          @click=""
+        >
+          Login
+        </v-list-tile>
+      </v-list>
     </v-navigation-drawer>
     <nuxt />
   </v-app>
@@ -114,7 +119,7 @@
     data () {
       return {
         clipped: false,
-        drawer: true,
+        drawer: false,
         fixed: false,
         list1: [
           { title: 'T-Shirts' },
