@@ -236,7 +236,7 @@
     <div class="footer-bg">
       <v-container grid-list-md text-xs-center class="">
         <v-layout row wrap grid-list-md text-xs-left>
-          <v-flex xs3>
+          <v-flex xs4 sm3>
             <v-card-text class="px-0 red--text title font-weight-bold">
               NEED HELP
             </v-card-text>
@@ -256,7 +256,7 @@
               T&Cs
             </v-card-text>
           </v-flex>
-          <v-flex xs3>
+          <v-flex xs4 sm3>
             <v-card-text class="px-0 red--text title font-weight-bold">
               COMPANY
             </v-card-text>
@@ -273,7 +273,7 @@
               Careers
             </v-card-text>
           </v-flex>
-          <v-flex xs3>
+          <v-flex xs4 sm3 hidden-sm-and-down>
             <v-card-text class="px-0 red--text title font-weight-bold">
               MORE INFO
             </v-card-text>
@@ -293,7 +293,7 @@
               Sitemap
             </v-card-text>
           </v-flex>
-          <v-flex xs3>
+          <v-flex xs4 sm3>
             <div>
               <v-btn outline fab small color="#58595b">
                 <v-icon color="#58595b">fa fa-rupee</v-icon>
@@ -308,12 +308,12 @@
             </div>
           </v-flex>
         </v-layout>
-        <v-layout align-center justify-space-between>
-          <v-flex xs6 class="text-xs-left">
+        <v-layout row wrap align-center justify-space-between>
+          <v-flex xs12 sm6 class="text-xs-left">
             <v-icon size="18">warning</v-icon>
             <a href="#" class="black--text">Report: Inappropriate Content or Copyright Infringement</a>
           </v-flex>
-          <v-flex xs6 class="text-xs-right">
+          <v-flex xs12 sm6 class="text-xs-right">
             <v-layout align-center justify-end>
               <div>Follow Us:</div>
               <v-btn fab small dark color="primary" class="hoverImages2">
@@ -344,33 +344,51 @@
             </v-card>
           </v-expansion-panel-content>
         </v-expansion-panel>
-        <v-layout align-center justify-space-between row wrap>
-          <v-flex xs6 md3 class="text-xs-left hidden-sm-and-down">
-            <v-layout align-center>
-              <div class="">100% Secure Payment:</div>
-              <img src="https://www.thesouledstore.com/static/images/icons/masterdcard.png" 
-                width="65" class="px-2">
-              <img src="https://www.thesouledstore.com/static/images/icons/mobikwik.png" 
-                width="65" class="px-2">
-              <img src="https://www.thesouledstore.com/static/images/icons/paytm.png" 
-                width="65" class="px-2">
-              <img src="https://www.thesouledstore.com/static/images/icons/americanExpress.png" 
-                width="65" class="px-2">
-              <img src="https://www.thesouledstore.com/static/images/icons/cod.png" 
-                width="65" class="px-2">
+        <v-layout row wrap align-center justify-space-between row wrap>
+          <v-flex xs12 sm6 class="text-xs-left">
+            <v-layout row wrap align-center>
+              <v-flex>100% Secure Payment:</v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/masterdcard.png" 
+                  width="55" class="px-0">
+              </v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/mobikwik.png" 
+                width="55" class="px-0">
+              </v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/paytm.png" 
+                width="55" class="px-0">
+              </v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/americanExpress.png" 
+                width="55" class="px-0">
+              </v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/cod.png" 
+                width="55" class="px-0">
+              </v-flex>
             </v-layout>
           </v-flex>
-          <v-flex xs6 md3 class="text-xs-right hidden-sm-and-down">
+          <v-flex xs12 sm6 class="text-xs-right">
             <v-layout align-center justify-end>
-              <div class="">Shipping Patners:</div>
-              <img src="https://www.thesouledstore.com/static/images/icons/fedex.png" 
-                width="65" class="px-2">
-              <img src="https://www.thesouledstore.com/static/images/icons/dtdc.png" 
-                width="65" class="px-2">
-              <img src="https://www.thesouledstore.com/static/images/icons/delivery.png" 
-                width="65" class="px-2">
-              <img src="https://www.thesouledstore.com/static/images/icons/rapid.png" 
-                width="65" class="px-2">
+              <v-flex>Shipping Patners:</v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/fedex.png" 
+                width="55" class="px-0">
+              </v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/dtdc.png" 
+                width="55" class="px-0">
+              </v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/delivery.png" 
+                width="55" class="px-0">
+              </v-flex>
+              <v-flex>
+                <img src="https://www.thesouledstore.com/static/images/icons/rapid.png" 
+                width="55" class="px-0">
+              </v-flex>
             </v-layout>
           </v-flex>
         </v-layout>
